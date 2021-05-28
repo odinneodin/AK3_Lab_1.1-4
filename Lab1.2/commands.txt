@@ -1,0 +1,15 @@
+1) make
+
+2) qemu-system-gnuarmeclipse --verbose --verbose --board STM32F4-Discovery --mcu STM32F407VG -d unimp,guest_errors --image firmware.bin --semihosting-config enable=on,target=native -s -S
+
+2) make qemu
+
+3) gdb-multiarch firmware.elf
+
+4) target extended-remote:1234
+
+5) layout regs
+
+6) step
+
+7) quit
