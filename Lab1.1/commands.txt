@@ -1,0 +1,14 @@
+1) make
+
+2) make qemu
+
+3) gdb-multiarch firmware.elf
+
+4) target extended-remote:1234
+
+5) layout regs
+
+6) continue
+6) step
+
+7) quit
